@@ -1,0 +1,112 @@
+body { font-family: 'Segoe UI', sans-serif; background: #f9fafb; line-height: 1.7; min-height: 100vh; }
+.hero {
+  background: url('hero.jpg') center center/cover no-repeat;
+  height: 400px;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.hero h1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1.2rem 2rem;
+  border-radius: 12px;
+}
+.section-title {
+  margin-top: 2.5rem;
+  color: #b22222;
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+}
+.main-title {
+  color: #1164a3;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.fs-2, .fs-3, .display-4, h1, h2, h3, h4, h5, h6 {
+  color: #b22222 !important;
+}
+.bi-heart-pulse-fill { color: #b22222 !important; }
+.bi-compass, .bi-bar-chart-line { color: #1164a3 !important; }
+.bi-mortarboard, .bi-journal-text { color: #2e6e7e !important; }
+.bi-beaker { color: #ffc107 !important; }
+.bi-people { color: #28a745 !important; }
+.bi-megaphone { color: #ff6b00 !important; }
+.bi-rocket-takeoff { color: #b22222 !important; }
+.btn-warning { background: #ffc107; color: #004085; border: none; }
+.btn-warning:hover { background: #e0a800; color: #fff; }
+.partner-logo {
+  height: 60px;
+  margin: 10px auto;
+  filter: none;
+  border-radius: 0;
+  object-fit: contain;
+  background: #fff;
+  display: block;
+}
+.partner-block {
+  background: #f3fdf9;
+  border-left: 5px solid #b22222;
+  border-radius: 10px;
+  padding: 1.5rem 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 0;
+  border: none;
+  aspect-ratio: 1/1;
+  background: #fff;
+}
+.team-member {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.cta-banner {
+  background: #28a745;
+  color: #fff;
+  padding: 2.5rem 0;
+  border-radius: 0;
+  text-align: center;
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 16px rgba(46,110,126,0.10);
+}
+.cta-banner .contact-details {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.cta-banner .btn-warning {
+  background: #ffc107;
+  color: #28a745;
+  border: none;
+}
+.cta-banner .btn-warning:hover {
+  background: #e0a800;
+  color: #fff;
+}
+.collab-image {
+  max-width: 320px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+footer {
+  font-size: 0.9rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  text-align: center;
+  color: #6c757d;
+}
